@@ -18,7 +18,7 @@ export const HighlightsBar = () => {
 
           <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.25em] text-zinc-300 sm:text-xs sm:tracking-[0.35em]">
             <FaYoutube size={20} className="text-white/80" />
-            <span className="font-medium">Live no YouTube dia 30/04</span>
+            <span className="font-medium">Live no YouTube dia 21/05</span>
           </div>
 
           <div className="h-px w-10 bg-gradient-to-r from-transparent via-white/30 to-transparent hidden md:block" />

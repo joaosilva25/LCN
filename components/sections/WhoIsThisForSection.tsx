@@ -41,18 +41,18 @@ export const WhoIsThisForSection = () => {
 
         <motion.div
           variants={staggerItemVariants}
-          className="flex flex-col justify-center gap-2"
+          className="flex flex-col justify-center gap-2 items-center text-center lg:items-start lg:text-left"
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-light leading-[1.15] tracking-tight text-white">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-light leading-[1.15] tracking-tight text-white text-center lg:text-left">
             Um evento exclusivo, online e gratuito.
           </h2>
 
-          <p className="text-base sm:text-lg text-zinc-300 max-w-xl mt-5 leading-relaxed font-regular select-none">
+          <p className="text-base sm:text-lg text-zinc-300 max-w-xl mt-5 leading-relaxed font-regular select-none text-center lg:text-left">
             Faremos nossa live através de um evento gratuito no Youtube, fácil
             assim, você vai perder?
           </p>
 
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center lg:justify-start">
             <Button
               size="lg"
               variant="primary"

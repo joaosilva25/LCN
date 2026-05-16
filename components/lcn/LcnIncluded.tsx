@@ -12,8 +12,8 @@ const items = [
   { image: "/Lista de fornecedores confiáveis.png", title: "Lista de fornecedores confiáveis", desc: "Fornecedores verificados direto da China sem intermediários" },
   { image: "/Comunidade ativa de membros.png", title: "Comunidade ativa", desc: "Networking com vendedores reais e troca de experiências" },
   { image: "/Encontros ao vivo mensais.png", title: "Encontros ao vivo mensais", desc: "Encontros exclusivos com estratégias e análises de mercado" },
-  { image: "/Atualizações constantes.png", title: "Suporte e direcionamento", desc: "Acompanhamento direto para tirar dúvidas e direcionar" },
-  { image: "/Suporte e direcionamento.png", title: "Atualizações constantes", desc: "Conteúdo sempre atualizado com tendências do mercado" },
+  { image: "/Suporte e direcionamento.png", title: "Suporte e direcionamento", desc: "Acompanhamento direto para tirar dúvidas e direcionar" },
+  { image: "/Atualizações constantes.png ", title: "Atualizações constantes", desc: "Conteúdo sempre atualizado com tendências do mercado" },
   { image: "/Estratégias de venda e estrutura de negócio.png", title: "Estratégias de venda e negócio", desc: "Táticas avançadas de precificação, escala e conversão" },
 ];
 

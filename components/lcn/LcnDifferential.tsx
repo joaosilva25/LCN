@@ -56,10 +56,10 @@ export const LcnDifferential = () => {
             className="grid grid-cols-[1fr_auto_auto] sm:grid-cols-[1fr_120px_120px] items-center gap-4 px-6 py-4 mb-2"
           >
             <span className="text-xs font-semibold tracking-[0.2em] uppercase text-white/30">&nbsp;</span>
-            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-white/30 text-center">
+            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-[#EF4444] text-center">
               Outros
             </span>
-            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-[#F87171] text-center">
+            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-white/60 text-center">
               LCN
             </span>
           </motion.div>
@@ -76,8 +76,8 @@ export const LcnDifferential = () => {
                 <X className="w-5 h-5 text-red-400/50" />
               </span>
               <span className="flex justify-center">
-                <div className="w-7 h-7 rounded-full bg-[#DC2626]/15 flex items-center justify-center">
-                  <Check className="w-4 h-4 text-[#DC2626]" />
+                <div className="w-7 h-7 rounded-full bg-black/20 border border-white/10 flex items-center justify-center">
+                  <Check className="w-4 h-4 text-white/70" />
                 </div>
               </span>
             </motion.div>

@@ -40,7 +40,9 @@ export const LcnHeader = () => {
             : "bg-transparent backdrop-blur-xl sm:backdrop-blur-none"
         }`}
       >
-        <div className="mx-auto max-w-7xl flex items-center justify-between px-5 sm:px-8 h-16 sm:h-[72px]">
+        <div className="mx-auto max-w-7xl flex items-center justify-between bg-black/10 px-5 sm:px-8 h-16 sm:h-[72px]" style={{
+          backdropFilter:"blur(10px)"
+        }}>
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group relative right-11 md:right-20">
             <img

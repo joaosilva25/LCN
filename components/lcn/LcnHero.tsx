@@ -21,8 +21,8 @@ export const LcnHero = () => {
             ].join(", "),
           }}
         />
-        <div className="absolute inset-0 bg-[url('/HeroMobile.png')] bg-cover bg-top opacity-[0.35] sm:hidden" />
-        <div className="absolute inset-0 hidden bg-[url('/HeroDesk.png')] bg-cover bg-top opacity-[0.35] sm:block" />
+        <div className="absolute inset-0 bg-[url('/HeroMobile.png')] bg-cover bg-[position:center_25px] opacity-[0.45] sm:hidden" />
+        <div className="absolute inset-0 hidden bg-[url('/HeroDesk.png')] bg-cover bg-top opacity-[0.45] sm:block" />
        
       </div>
 
@@ -52,9 +52,8 @@ export const LcnHero = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="max-w-2xl text-base sm:text-lg text-white/55 leading-relaxed mb-10"
         >
-          Tenha acesso ao ecossistema completo onde você aprende a comprar direto da China com inteligência,
-          criar uma estrutura de vendas previsível e escalar com estratégias aplicadas por quem já gerou mais de
-          <span className="text-[#D48E93] font-semibold"> R$20 milhões</span> no mercado de semijoias.
+          Tenha acesso ao ecossistema completo para importar da China, vender com previsibilidade e escalar no mercado de semijoias com estratégias que já geraram mais de<br></br>
+          <span className="text-[#D48E93] font-semibold"> R$20 milhões</span>.
         </motion.p>
 
         {/* CTA + micro proofs */}

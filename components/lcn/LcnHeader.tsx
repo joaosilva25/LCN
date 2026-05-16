@@ -91,7 +91,7 @@ export const LcnHeader = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-[#090506]/95 backdrop-blur-2xl lg:hidden"
+            className="fixed inset-0 z-40 bg-[#090506]/95 backdrop-blur-lg lg:hidden"
           >
             <nav className="flex flex-col items-center justify-center h-full gap-2">
               {NAV_LINKS.map((link, i) => (

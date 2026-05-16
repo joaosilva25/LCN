@@ -56,7 +56,7 @@ export const LcnIncluded = () => {
           {/* Navigation arrows */}
           <motion.div
             variants={staggerItemVariants}
-            className="flex items-center justify-end gap-3 mb-6"
+            className="hidden sm:flex items-center justify-end gap-3 mb-6"
           >
             <button
               type="button"

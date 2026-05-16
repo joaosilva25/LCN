@@ -5,12 +5,12 @@ import { AnimatedSection, Container, staggerItemVariants, MotionContainer, stagg
 
 export const LcnFounder = () => {
   return (
-    <AnimatedSection dark id="fundador" className="!py-32 sm:!py-40 lg:!py-52">
+    <AnimatedSection dark id="fundador" className="!pt-16 !pb-[28rem] sm:!py-40 lg:!py-52">
       {/* Background personalizado */}
       <div
-        aria-hidden="true"
-        className="absolute inset-0 z-0 bg-[url('/LC1Mobile.png')] bg-cover bg-top sm:hidden"
-      />
+  aria-hidden="true"
+  className="absolute inset-0 z-0 bg-[url('/LC1Mobile.png')] bg-cover bg-[position:center_140px] bg-no-repeat sm:hidden"
+/>
       <div
         aria-hidden="true"
         className="absolute inset-0 z-0 hidden bg-[url('/LC1.png')] bg-cover bg-top sm:block"
@@ -21,7 +21,7 @@ export const LcnFounder = () => {
       />
       <Container>
         <MotionContainer variants={staggerContainerVariants} className="w-full">
-          <div className="max-w-lg ml-auto text-right">
+          <div className="max-w-lg mx-auto text-center sm:ml-auto sm:mr-0 sm:text-right">
 
             <motion.span
               variants={staggerItemVariants}
@@ -41,7 +41,7 @@ export const LcnFounder = () => {
             </motion.blockquote>
 
             <motion.div variants={staggerItemVariants} className="mt-8">
-              <p className="text-right text-sm text-white/30 tracking-wide">
+              <p className="text-center sm:text-right text-sm text-white/30 tracking-wide">
                 Leo China <span className="text-white/15 mx-2">—</span> <span className="text-white/50">Fundador</span>
               </p>
             </motion.div>

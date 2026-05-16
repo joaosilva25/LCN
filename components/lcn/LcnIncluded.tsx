@@ -8,7 +8,7 @@ import { AnimatedSection, Container, staggerContainerVariants, staggerItemVarian
 
 const items = [
   { image: "/Curso Milionário de Semijoias.png", title: "Curso Milionário de Semijoias", desc: "Método completo passo a passo para faturar com semijoias" },
-  { image: "/Todos os cursos + livro.png", title: "Todos os cursos + livro", desc: "Acesse todo o acervo de conhecimento e material exclusivo" },
+  { image: "/Todos os cursos.png", title: "Todos os cursos + livro", desc: "Acesse todo o acervo de conhecimento e material exclusivo" },
   { image: "/Lista de fornecedores confiáveis.png", title: "Lista de fornecedores confiáveis", desc: "Fornecedores verificados direto da China sem intermediários" },
   { image: "/Comunidade ativa de membros.png", title: "Comunidade ativa", desc: "Networking com vendedores reais e troca de experiências" },
   { image: "/Encontros ao vivo mensais.png", title: "Encontros ao vivo mensais", desc: "Encontros exclusivos com estratégias e análises de mercado" },

@@ -52,7 +52,7 @@ export const LcnHero = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="max-w-2xl text-base sm:text-lg text-white/55 leading-relaxed mb-10"
         >
-          Tenha acesso ao ecossistema completo para importar da China, vender com previsibilidade e escalar no mercado de semijoias com estratégias que já geraram mais de<br></br>
+          Tenha acesso ao ecossistema completo para importar da China, vender com previsibilidade e escalar no mercado de semijoias com estratégias que já geraram mais de
           <span className="text-[#F87171] font-semibold"> R$20 milhões</span>.
         </motion.p>
 

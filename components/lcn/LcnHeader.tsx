@@ -37,12 +37,11 @@ export const LcnHeader = () => {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-white/5 ${
           scrolled
             ? "bg-[#090506]/80 border-b border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.4)] backdrop-blur-xl"
-            : "bg-transparent backdrop-blur-xl sm:backdrop-blur-none"
+            : "bg-black/30 backdrop-blur-xl"
         }`}
+        style={{ backdropFilter: "blur(10px)" }}
       >
-        <div className="mx-auto max-w-7xl flex items-center justify-between bg-black/10 px-5 sm:px-8 h-16 sm:h-[72px]" style={{
-          backdropFilter:"blur(10px)"
-        }}>
+        <div className="mx-auto max-w-7xl flex items-center justify-between px-5 sm:px-8 h-16 sm:h-[72px]">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group relative right-11 md:right-20">
             <img

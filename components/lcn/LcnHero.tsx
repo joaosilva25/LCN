@@ -7,7 +7,7 @@ const CTA_LINK = "#oferta";
 
 export const LcnHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-5 pt-44 pb-16 sm:pt-28 sm:px-8 lg:px-12">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-5 pt-44 pb-24 sm:pt-28 sm:px-8 lg:px-12">
       {/* Background layers */}
       <div aria-hidden="true" className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[#090506]" />

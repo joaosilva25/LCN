@@ -1,63 +1,48 @@
-import React from "react";
-import { Header } from "@/components/sections/Header";
-import { Hero } from "@/components/sections/Hero";
-import { HighlightsBar } from "@/components/sections/HighlightsBar";
-import { EventAccessSection } from "@/components/sections/EventAccessSection";
-import { LiveShopGallerySection } from "@/components/sections/LiveShopGallerySection";
-import { OnlineFreeEventSection } from "@/components/sections/OnlineFreeEventSection";
-import { EventSection } from "@/components/sections/EventSection";
-import { ResaleBenefitsSection } from "@/components/sections/ResaleBenefitsSection";
-import { VipAccessSection } from "@/components/sections/VipAccessSection";
-import { WhoIsThisForSection } from "@/components/sections/WhoIsThisForSection";
-import { BenefitsTimelineSection } from "@/components/sections/BenefitsTimelineSection";
-import { Footer } from "@/components/sections/Footer";
-import { ScrollToTopButton } from "@/components/ui/ScrollToTopButton";
+import type { Metadata } from "next";
+import { LcnHeader } from "@/components/lcn/LcnHeader";
+import { LcnHero } from "@/components/lcn/LcnHero";
+import { LcnProblem } from "@/components/lcn/LcnProblem";
+import { LcnIdentification } from "@/components/lcn/LcnIdentification";
+import { LcnTransformation } from "@/components/lcn/LcnTransformation";
+import { LcnIncluded } from "@/components/lcn/LcnIncluded";
+import { LcnDifferential } from "@/components/lcn/LcnDifferential";
+import { LcnFounder } from "@/components/lcn/LcnFounder";
+import { LcnOffer } from "@/components/lcn/LcnOffer";
+import { LcnVision } from "@/components/lcn/LcnVision";
+import { LcnFaq } from "@/components/lcn/LcnFaq";
+import { LcnFinalCta } from "@/components/lcn/LcnFinalCta";
+import { LcnFooter } from "@/components/lcn/LcnFooter";
 
-export default function Home() {
-  const rawSiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-  const siteUrl = (
-    rawSiteUrl
-      ? rawSiteUrl.startsWith("http")
-        ? rawSiteUrl
-        : `https://${rawSiteUrl}`
-      : "https://xingyu.com.br"
-  ).replace(/\/+$/, "");
+export const metadata: Metadata = {
+  title: "Comunidade LCN | O Ecossistema Definitivo de Semijoias",
+  description:
+    "Tenha acesso ao ecossistema completo para comprar direto da China, criar vendas previsíveis e escalar com quem já gerou mais de R$20 milhões no mercado de semijoias.",
+  openGraph: {
+    title: "Comunidade LCN | O Ecossistema Definitivo de Semijoias",
+    description:
+      "Tenha acesso ao ecossistema completo para comprar direto da China, criar vendas previsíveis e escalar com quem já gerou mais de R$20 milhões no mercado de semijoias.",
+    type: "website",
+  },
+};
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Xingyu",
-    url: siteUrl,
-    logo: `${siteUrl}/logoMenu.png`,
-  } as const;
-
+export default function ComunidadePage() {
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-      <div className="min-h-screen bg-[#0b0d0e]  text-zinc-100 selection:bg-emerald-500/30 overflow-x-hidden">
-
-        <Header />
-
-        <main>
-          <Hero />
-          <EventSection />
-          <HighlightsBar />
-          <OnlineFreeEventSection />
-          <LiveShopGallerySection />
-          <WhoIsThisForSection />
-          <BenefitsTimelineSection />
-          <ResaleBenefitsSection />
-          <VipAccessSection />
-        </main>
-
-        <Footer />
-
-        <ScrollToTopButton />
-      </div>
-    </>
+    <div className="min-h-screen bg-[#090506] text-[#F7EEEC] selection:bg-[#621010]/30 overflow-x-hidden">
+      <LcnHeader />
+      <main>
+        <LcnHero />
+        <LcnProblem />
+        <LcnIdentification />
+        <LcnTransformation />
+        <LcnIncluded />
+        <LcnDifferential />
+        <LcnFounder />
+        <LcnOffer />
+        <LcnVision />
+        <LcnFaq />
+        <LcnFinalCta />
+      </main>
+      <LcnFooter />
+    </div>
   );
 }

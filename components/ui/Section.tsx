@@ -138,6 +138,14 @@ export const Section = ({ children, className, id, dark = false }: SectionProps)
       className
     )}
   >
+    <div
+      aria-hidden="true"
+      className="absolute inset-0 z-0 bg-[url('/BackgroundMobile.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:hidden"
+    />
+    <div
+      aria-hidden="true"
+      className="absolute inset-0 z-0 hidden bg-[url('/Background.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:block"
+    />
     {children}
   </section>
 );
@@ -211,6 +219,14 @@ export const AnimatedSection = memo(
           )}
           style={{ willChange: "transform, opacity" }}
         >
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 z-0 bg-[url('/BackgroundMobile.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:hidden"
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 z-0 hidden bg-[url('/Background.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:block"
+          />
           {children}
         </motion.section>
       </AnimatePresence>

@@ -80,8 +80,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [{ url: "/logoMenu.png", type: "image/png" }],
-    apple: [{ url: "/logoMenu.png", type: "image/png" }],
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    apple: [{ url: "/favicon.png", type: "image/png" }],
   },
 };
 

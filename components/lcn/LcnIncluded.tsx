@@ -3,18 +3,18 @@
 import { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { motion } from "framer-motion";
-import { BookOpen, Users, Video, Headphones, RefreshCw, BarChart3, Globe, Library, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { AnimatedSection, Container, staggerContainerVariants, staggerItemVariants, MotionContainer } from "@/components/ui/Section";
 
 const items = [
-  { icon: BookOpen, title: "Curso Milionário de Semijoias", desc: "Método completo passo a passo para faturar com semijoias" },
-  { icon: Library, title: "Todos os cursos + livro", desc: "Acesse todo o acervo de conhecimento e material exclusivo" },
-  { icon: Globe, title: "Lista de fornecedores confiáveis", desc: "Fornecedores verificados direto da China sem intermediários" },
-  { icon: Users, title: "Comunidade ativa", desc: "Networking com vendedores reais e troca de experiências" },
-  { icon: Video, title: "Encontros ao vivo mensais", desc: "Encontros exclusivos com estratégias e análises de mercado" },
-  { icon: Headphones, title: "Suporte e direcionamento", desc: "Acompanhamento direto para tirar dúvidas e direcionar" },
-  { icon: RefreshCw, title: "Atualizações constantes", desc: "Conteúdo sempre atualizado com tendências do mercado" },
-  { icon: BarChart3, title: "Estratégias de venda e negócio", desc: "Táticas avançadas de precificação, escala e conversão" },
+  { image: "/Curso Milionário de Semijoias.png", title: "Curso Milionário de Semijoias", desc: "Método completo passo a passo para faturar com semijoias" },
+  { image: "/Todos os cursos + livro.png", title: "Todos os cursos + livro", desc: "Acesse todo o acervo de conhecimento e material exclusivo" },
+  { image: "/Lista de fornecedores confiáveis.png", title: "Lista de fornecedores confiáveis", desc: "Fornecedores verificados direto da China sem intermediários" },
+  { image: "/Comunidade ativa de membros.png", title: "Comunidade ativa", desc: "Networking com vendedores reais e troca de experiências" },
+  { image: "/Encontros ao vivo mensais.png", title: "Encontros ao vivo mensais", desc: "Encontros exclusivos com estratégias e análises de mercado" },
+  { image: "/Atualizações constantes.png", title: "Suporte e direcionamento", desc: "Acompanhamento direto para tirar dúvidas e direcionar" },
+  { image: "/Suporte e direcionamento.png", title: "Atualizações constantes", desc: "Conteúdo sempre atualizado com tendências do mercado" },
+  { image: "/Estratégias de venda e estrutura de negócio.png", title: "Estratégias de venda e negócio", desc: "Táticas avançadas de precificação, escala e conversão" },
 ];
 
 export const LcnIncluded = () => {
@@ -34,7 +34,7 @@ export const LcnIncluded = () => {
         <div className="text-center mb-12">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Ecossistema completo
           </motion.span>
@@ -62,7 +62,7 @@ export const LcnIncluded = () => {
               type="button"
               aria-label="Anterior"
               onClick={scrollPrev}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/90 backdrop-blur-xl transition-all duration-300 hover:bg-[#621010] hover:border-[#621010] hover:text-white cursor-pointer"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/90 backdrop-blur-xl transition-all duration-300 hover:bg-[#DC2626] hover:border-[#DC2626] hover:text-white cursor-pointer"
             >
               <ChevronLeft className="h-5 w-5" strokeWidth={1.8} />
             </button>
@@ -70,7 +70,7 @@ export const LcnIncluded = () => {
               type="button"
               aria-label="Próximo"
               onClick={scrollNext}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/90 backdrop-blur-xl transition-all duration-300 hover:bg-[#621010] hover:border-[#621010] hover:text-white cursor-pointer"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/90 backdrop-blur-xl transition-all duration-300 hover:bg-[#DC2626] hover:border-[#DC2626] hover:text-white cursor-pointer"
             >
               <ChevronRight className="h-5 w-5" strokeWidth={1.8} />
             </button>
@@ -83,14 +83,15 @@ export const LcnIncluded = () => {
                   key={i}
                   className="relative min-w-0 flex-[0_0_100%] sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(25%-18px)] mr-6"
                 >
-                  <div className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-[#0d0a0a] backdrop-blur-sm transition-all duration-500 hover:border-[#621010]/30 group h-full">
-                    {/* Icon area */}
-                    <div className="relative p-6 pb-0">
-                      <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-gradient-to-b from-[#621010]/10 to-transparent flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-2xl bg-[#621010]/15 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                          <item.icon className="w-7 h-7 text-[#D48E93]" />
-                        </div>
-                      </div>
+                  <div className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-[#0d0a0a] backdrop-blur-sm transition-all duration-500 group h-full cursor-grab">
+                    {/* Image area */}
+                    <div className="relative w-full aspect-square overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#0d0a0a] via-transparent to-transparent" />
                     </div>
 
                     {/* Text content */}
@@ -98,10 +99,10 @@ export const LcnIncluded = () => {
                       <h3 className="font-title text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">
                         {item.title}
                       </h3>
-                      <p className="text-[#D48E93] text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-3">
+                      <p className="text-[#F87171] text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-3">
                         Incluso
                       </p>
-                      <p className="text-white/40 text-xs sm:text-sm leading-relaxed">
+                      <p className="text-white/40 text-xs sm:text-sm pb-4 leading-relaxed">
                         {item.desc}
                       </p>
                     </div>

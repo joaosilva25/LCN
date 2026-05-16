@@ -25,7 +25,7 @@ export const LcnIdentification = () => {
         <div className="text-center mb-16">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Isso é sobre você?
           </motion.span>
@@ -75,7 +75,7 @@ export const LcnIdentification = () => {
           className="text-center mt-16"
         >
           <p className="max-w-lg mx-auto text-sm sm:text-base text-white/25 leading-relaxed">
-            A <span className="text-[#D48E93]/60 font-medium">Comunidade LCN</span> existe para
+            A <span className="text-[#F87171]/60 font-medium">Comunidade LCN</span> existe para
             preencher exatamente esses buracos.
           </p>
         </motion.div>

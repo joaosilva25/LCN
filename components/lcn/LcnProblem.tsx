@@ -21,7 +21,7 @@ export const LcnProblem = () => {
         <div className="text-center mb-16">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             O problema real
           </motion.span>
@@ -45,16 +45,16 @@ export const LcnProblem = () => {
         <MotionContainer variants={staggerContainerVariants} className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {/* Myths */}
           <div className="space-y-4">
-            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-red-400/70 mb-3 text-center md:text-left">
+            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#EF4444] mb-3 text-center md:text-left">
               O que te disseram
             </p>
             {myths.map((item, i) => (
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-400/20 transition-colors duration-500"
+                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl bg-[#EF4444]/[0.04] border border-[#EF4444]/10 hover:border-[#EF4444]/30 transition-colors duration-500"
               >
-                <item.icon className="w-5 h-5 text-red-400/60 mt-0.5 flex-shrink-0" />
+                <item.icon className="w-5 h-5 text-[#EF4444] mt-0.5 flex-shrink-0" />
                 <p className="text-white/50 text-sm sm:text-base leading-relaxed">
                   {item.text}
                 </p>
@@ -64,16 +64,16 @@ export const LcnProblem = () => {
 
           {/* Truths */}
           <div className="space-y-4">
-            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#D48E93]/70 mb-3 text-center md:text-left">
+            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-white/60 mb-3 text-center md:text-left">
               A verdade
             </p>
             {truths.map((item, i) => (
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl lcn-glass-red hover:border-[#621010]/30 transition-colors duration-500"
+                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl lcn-glass hover:border-white/10 transition-colors duration-500"
               >
-                <item.icon className="w-5 h-5 text-[#621010] mt-0.5 flex-shrink-0" />
+                <item.icon className="w-5 h-5 text-white/70 mt-0.5 flex-shrink-0" />
                 <p className="text-white/80 text-sm sm:text-base leading-relaxed font-medium">
                   {item.text}
                 </p>

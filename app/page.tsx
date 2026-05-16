@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function ComunidadePage() {
   return (
-    <div className="min-h-screen bg-[#090506] text-[#F7EEEC] selection:bg-[#621010]/30 overflow-x-hidden">
+    <div className="min-h-screen bg-[#090506] text-[#F7EEEC] selection:bg-[#DC2626]/30 overflow-x-hidden">
       <LcnHeader />
       <main>
         <LcnHero />

@@ -40,7 +40,7 @@ const benefits = [
 
 const BenefitIcon = ({ index }: { index: number }) => {
   const Icon = benefits[index].icon;
-  return <Icon className="w-6 h-6 text-[#621010]" />;
+  return <Icon className="w-6 h-6 text-[#DC2626]" />;
 };
 
 export const LcnTransformation = () => {
@@ -52,7 +52,7 @@ export const LcnTransformation = () => {
         <div className="text-center mb-12">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Transformação
           </motion.span>

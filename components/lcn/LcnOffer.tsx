@@ -25,7 +25,7 @@ export const LcnOffer = () => {
         <div className="text-center mb-12">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Oferta especial
           </motion.span>
@@ -45,14 +45,14 @@ export const LcnOffer = () => {
             className="relative rounded-[2rem] overflow-hidden"
           >
             {/* Card border glow */}
-            <div className="absolute inset-0 rounded-[2rem] p-px bg-gradient-to-b from-[#D48E93]/40 via-[#D48E93]/10 to-[#D48E93]/20">
+            <div className="absolute inset-0 rounded-[2rem] p-px bg-gradient-to-b from-[#F87171]/40 via-[#F87171]/10 to-[#F87171]/20">
               <div className="w-full h-full rounded-[2rem] bg-[#0a0a0a]" />
             </div>
 
             <div className="relative z-10 p-8 sm:p-10 md:p-12">
               {/* Badge */}
               <div className="text-center mb-8">
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#D48E93]/10 border border-[#D48E93]/20 text-[#D48E93] text-xs font-semibold tracking-widest uppercase">
+                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F87171]/10 border border-[#F87171]/20 text-[#F87171] text-xs font-semibold tracking-widest uppercase">
                   <Zap className="w-3.5 h-3.5" />
                   Acesso completo
                 </span>
@@ -63,8 +63,8 @@ export const LcnOffer = () => {
                 <div className="space-y-3">
                   {included.map((item, i) => (
                     <div key={i} className="flex items-center gap-3">
-                      <div className="w-5 h-5 rounded-full bg-[#D48E93]/15 flex items-center justify-center flex-shrink-0">
-                        <Check className="w-3 h-3 text-[#D48E93]" />
+                      <div className="w-5 h-5 rounded-full bg-[#F87171]/15 flex items-center justify-center flex-shrink-0">
+                        <Check className="w-3 h-3 text-[#F87171]" />
                       </div>
                       <span className="text-white/60 text-sm sm:text-base">{item}</span>
                     </div>
@@ -102,12 +102,12 @@ export const LcnOffer = () => {
               {/* Micro badges */}
               <div className="flex flex-wrap items-center justify-center gap-4 pt-9 pb-4 text-xs text-white/35">
                 <span className="flex items-center gap-1.5">
-                  <Shield className="w-3.5 h-3.5 text-[#621010]" />
+                  <Shield className="w-3.5 h-3.5 text-[#DC2626]" />
                   7 dias de garantia
                 </span>
                 <span className="w-px h-3 bg-white/10" />
                 <span className="flex items-center gap-1.5">
-                  <Zap className="w-3.5 h-3.5 text-[#621010]" />
+                  <Zap className="w-3.5 h-3.5 text-[#DC2626]" />
                   Acesso imediato
                 </span>
               </div>

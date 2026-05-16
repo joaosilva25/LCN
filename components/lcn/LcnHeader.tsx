@@ -67,7 +67,7 @@ export const LcnHeader = () => {
           {/* CTA button — right */}
           <a
             href="#oferta"
-            className="hidden lg:inline-flex px-5 py-2 rounded-lg text-xs font-semibold tracking-[0.15em] uppercase text-[#F7EEEC] lcn-gradient-btn hover:shadow-[0_0_20px_rgba(185,31,60,0.3)] transition-all duration-300"
+            className="hidden lg:inline-flex px-5 py-2 rounded-lg text-xs font-semibold tracking-[0.15em] uppercase text-[#F7EEEC] lcn-gradient-btn hover:shadow-[0_0_20px_rgba(239,68,68,0.3)] transition-all duration-300"
           >
             Entrar
           </a>

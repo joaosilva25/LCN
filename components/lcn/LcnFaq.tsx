@@ -45,7 +45,7 @@ const FaqItem = ({ q, a }: { q: string; a: string }) => {
           {q}
         </span>
         <ChevronDown
-          className={`w-5 h-5 text-[#621010] flex-shrink-0 transition-transform duration-300 ${
+          className={`w-5 h-5 text-[#DC2626] flex-shrink-0 transition-transform duration-300 ${
             open ? "rotate-180" : ""
           }`}
         />
@@ -76,7 +76,7 @@ export const LcnFaq = () => {
         <div className="text-center mb-14">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Perguntas Frequentes
           </motion.span>

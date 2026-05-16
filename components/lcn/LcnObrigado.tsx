@@ -26,10 +26,10 @@ const steps = [
 
 export const LcnObrigado = () => {
   return (
-    <div className="min-h-screen bg-[#090506] text-white selection:bg-[#621010]/30 overflow-x-hidden">
+    <div className="min-h-screen bg-[#090506] text-white selection:bg-[#DC2626]/30 overflow-x-hidden">
       {/* Background glow */}
       <div className="fixed inset-0 pointer-events-none" aria-hidden="true">
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#621010]/[0.04] blur-[200px]" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#DC2626]/[0.04] blur-[200px]" />
       </div>
 
       <main className="relative z-10 flex flex-col items-center justify-center min-h-screen px-5 py-20 sm:px-8">
@@ -41,8 +41,8 @@ export const LcnObrigado = () => {
             transition={{ duration: 0.6, type: "spring" }}
             className="mb-8"
           >
-            <div className="w-20 h-20 mx-auto rounded-full bg-[#621010]/10 border border-[#621010]/20 flex items-center justify-center lcn-pulse">
-              <CheckCircle className="w-10 h-10 text-[#621010]" />
+            <div className="w-20 h-20 mx-auto rounded-full bg-[#DC2626]/10 border border-[#DC2626]/20 flex items-center justify-center lcn-pulse">
+              <CheckCircle className="w-10 h-10 text-[#DC2626]" />
             </div>
           </motion.div>
 
@@ -53,7 +53,7 @@ export const LcnObrigado = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full lcn-glass-red mb-6"
           >
-            <span className="text-xs sm:text-sm font-medium tracking-widest uppercase text-[#D48E93]">
+            <span className="text-xs sm:text-sm font-medium tracking-widest uppercase text-[#F87171]">
               Compra confirmada
             </span>
           </motion.div>
@@ -98,14 +98,14 @@ export const LcnObrigado = () => {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.7 + i * 0.15 }}
-                  className="flex items-start gap-5 p-6 sm:p-7 rounded-2xl lcn-glass hover:border-[#D48E93]/20 transition-all duration-500 group"
+                  className="flex items-start gap-5 p-6 sm:p-7 rounded-2xl lcn-glass hover:border-[#F87171]/20 transition-all duration-500 group"
                 >
-                  <div className="w-12 h-12 rounded-2xl bg-[#D48E93]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#D48E93]/20 transition-colors duration-500">
-                    <step.icon className="w-5 h-5 text-[#D48E93]" />
+                  <div className="w-12 h-12 rounded-2xl bg-[#F87171]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#F87171]/20 transition-colors duration-500">
+                    <step.icon className="w-5 h-5 text-[#F87171]" />
                   </div>
                   <div>
                     <div className="flex items-center gap-2 mb-1.5">
-                      <span className="text-xs text-[#D48E93]/50 font-mono">{step.num}</span>
+                      <span className="text-xs text-[#F87171]/50 font-mono">{step.num}</span>
                       <h3 className="font-title text-base sm:text-lg font-semibold text-white">
                         {step.title}
                       </h3>
@@ -130,12 +130,12 @@ export const LcnObrigado = () => {
               &ldquo;Agora é sua vez de parar de improvisar
               <br />
               e começar a{" "}
-              <span className="text-[#D48E93] not-italic font-semibold">construir de verdade</span>.&rdquo;
+              <span className="text-[#F87171] not-italic font-semibold">construir de verdade</span>.&rdquo;
             </p>
 
             <a
               href="#"
-              className="group inline-flex items-center gap-2 mt-8 text-sm text-[#D48E93]/60 hover:text-[#D48E93] transition-colors duration-300"
+              className="group inline-flex items-center gap-2 mt-8 text-sm text-[#F87171]/60 hover:text-[#F87171] transition-colors duration-300"
             >
               Acessar a plataforma
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

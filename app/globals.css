@@ -67,7 +67,7 @@ body::-webkit-scrollbar,
 }
 
 /* ── LCN Premium Landing Page ── */
-/* Palette: #090506 · #88112A · #621010 · #D48E93 · #F7EEEC */
+/* Palette: #090506 · #EF4444 · #DC2626 · #F87171 · #F7EEEC */
 
 @keyframes lcn-shimmer {
   0% { background-position: -200% 0; }
@@ -80,8 +80,8 @@ body::-webkit-scrollbar,
 }
 
 @keyframes lcn-pulse {
-  0%, 100% { box-shadow: 0 0 20px rgba(185,31,60,0.18), 0 0 60px rgba(136,17,42,0.08); }
-  50% { box-shadow: 0 0 32px rgba(185,31,60,0.32), 0 0 80px rgba(136,17,42,0.14); }
+  0%, 100% { box-shadow: 0 0 20px rgba(239,68,68,0.18), 0 0 60px rgba(220,38,38,0.08); }
+  50% { box-shadow: 0 0 32px rgba(239,68,68,0.32), 0 0 80px rgba(220,38,38,0.14); }
 }
 
 @keyframes fade-in-up {
@@ -90,7 +90,7 @@ body::-webkit-scrollbar,
 }
 
 .lcn-accent-text {
-  background: linear-gradient(135deg, #621010 0%, #D48E93 40%, #621010 60%, #88112A 100%);
+  background: linear-gradient(135deg, #DC2626 0%, #F87171 40%, #DC2626 60%, #EF4444 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -99,22 +99,22 @@ body::-webkit-scrollbar,
 }
 
 .lcn-glass {
-  background: rgba(247, 238, 236, 0.02);
+  background: rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(247, 238, 236, 0.05);
+  border: 1px solid rgba(156, 156, 156, 0.178);
 }
 
 .lcn-glass-red {
-  background: rgba(185, 31, 60, 0.05);
+  background: rgba(239, 68, 68, 0.05);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(185, 31, 60, 0.14);
+  border: 1px solid rgba(239, 68, 68, 0.14);
 }
 
 .lcn-glow-red {
-  box-shadow: 0 0 60px -20px rgba(185, 31, 60, 0.22),
-              0 0 120px -40px rgba(136, 17, 42, 0.10);
+  box-shadow: 0 0 60px -20px rgba(239, 68, 68, 0.22),
+              0 0 120px -40px rgba(220, 38, 38, 0.10);
 }
 
 .lcn-float {
@@ -126,14 +126,14 @@ body::-webkit-scrollbar,
 }
 
 .lcn-gradient-btn {
-  background: linear-gradient(135deg, #88112A 0%, #621010 50%, #88112A 100%);
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 50%, #EF4444 100%);
 }
 
 .lcn-bg-premium {
   position: relative;
-  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(185,31,60,0.06) 0%, transparent 70%),
-              radial-gradient(ellipse 60% 50% at 0% 50%, rgba(136,17,42,0.04) 0%, transparent 60%),
-              radial-gradient(ellipse 60% 50% at 100% 50%, rgba(136,17,42,0.04) 0%, transparent 60%),
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(239,68,68,0.06) 0%, transparent 70%),
+              radial-gradient(ellipse 60% 50% at 0% 50%, rgba(220,38,38,0.04) 0%, transparent 60%),
+              radial-gradient(ellipse 60% 50% at 100% 50%, rgba(220,38,38,0.04) 0%, transparent 60%),
               #090506;
 }
 

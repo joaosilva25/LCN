@@ -15,9 +15,9 @@ export const LcnHero = () => {
           className="absolute inset-0"
           style={{
             backgroundImage: [
-              "radial-gradient(ellipse 90% 60% at 50% 20%, rgba(185,31,60,0.10) 0%, transparent 70%)",
-              "radial-gradient(ellipse 50% 80% at 20% 80%, rgba(136,17,42,0.06) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50% 80% at 80% 80%, rgba(136,17,42,0.06) 0%, transparent 60%)",
+              "radial-gradient(ellipse 90% 60% at 50% 20%, rgba(239,68,68,0.10) 0%, transparent 70%)",
+              "radial-gradient(ellipse 50% 80% at 20% 80%, rgba(220,38,38,0.06) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50% 80% at 80% 80%, rgba(220,38,38,0.06) 0%, transparent 60%)",
             ].join(", "),
           }}
         />
@@ -53,7 +53,7 @@ export const LcnHero = () => {
           className="max-w-2xl text-base sm:text-lg text-white/55 leading-relaxed mb-10"
         >
           Tenha acesso ao ecossistema completo para importar da China, vender com previsibilidade e escalar no mercado de semijoias com estratégias que já geraram mais de<br></br>
-          <span className="text-[#D48E93] font-semibold"> R$20 milhões</span>.
+          <span className="text-[#F87171] font-semibold"> R$20 milhões</span>.
         </motion.p>
 
         {/* CTA + micro proofs */}
@@ -77,12 +77,12 @@ export const LcnHero = () => {
           {/* Micro badges */}
           <div className="flex flex-wrap items-center gap-4 mt-6 text-xs text-white/50">
             <span className="flex items-center gap-1.5">
-              <Zap className="w-3.5 h-3.5 text-[#621010]" />
+              <Zap className="w-3.5 h-3.5 text-[#DC2626]" />
               Acesso imediato
             </span>
             <span className="w-px h-3 bg-white/10" />
             <span className="flex items-center gap-1.5">
-              <Shield className="w-3.5 h-3.5 text-[#621010]" />
+              <Shield className="w-3.5 h-3.5 text-[#DC2626]" />
               Compra 100% segura
             </span>
           </div>
@@ -112,8 +112,8 @@ export const LcnHero = () => {
               className="flex items-center gap-2 text-xs font-semibold tracking-[0.12em] uppercase text-[#F7EEEC]/50 whitespace-nowrap"
             >
               <span className="relative flex items-center justify-center mr-1">
-                <span className="absolute inline-flex w-2.5 h-2.5 rounded-full bg-[#621010] opacity-75 animate-ping" />
-                <span className="relative inline-flex w-1.5 h-1.5 rounded-full bg-[#621010]" />
+                <span className="absolute inline-flex w-2.5 h-2.5 rounded-full bg-[#DC2626] opacity-75 animate-ping" />
+                <span className="relative inline-flex w-1.5 h-1.5 rounded-full bg-[#DC2626]" />
               </span>
               {item}
             </span>

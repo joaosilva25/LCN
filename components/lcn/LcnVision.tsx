@@ -17,7 +17,7 @@ export const LcnVision = () => {
         <div className="text-center mb-10">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Visão de futuro
           </motion.span>
@@ -35,7 +35,7 @@ export const LcnVision = () => {
                 <span key={i}>
                   <span className="relative inline-block">
                     <span className="relative z-10">{h.label}</span>
-                    <span className="absolute bottom-1 left-0 right-0 h-[6px] bg-[#621010]/25 rounded-sm -z-0" />
+                    <span className="absolute bottom-1 left-0 right-0 h-[6px] bg-[#DC2626]/25 rounded-sm -z-0" />
                   </span>
                   {" "}{h.desc}
                   {i < highlights.length - 1 ? ", " : "."}
@@ -52,7 +52,7 @@ export const LcnVision = () => {
             {highlights.map((h, i) => (
               <span
                 key={i}
-                className="px-4 py-2 rounded-full text-xs font-medium tracking-wide text-[#D48E93]/70 border border-[#621010]/15 bg-[#621010]/[0.03]"
+                className="px-4 py-2 rounded-full text-xs font-medium tracking-wide text-[#F87171]/70 border border-[#DC2626]/15 bg-[#DC2626]/[0.03]"
               >
                 {String(i + 1).padStart(2, "0")}. {h.label}
               </span>

@@ -22,7 +22,7 @@ export const LcnDifferential = () => {
         <div className="text-center mb-16">
           <motion.span
             variants={staggerItemVariants}
-            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#D48E93] mb-4"
+            className="inline-block text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-[#F87171] mb-4"
           >
             Diferencial
           </motion.span>
@@ -59,7 +59,7 @@ export const LcnDifferential = () => {
             <span className="text-xs font-semibold tracking-[0.15em] uppercase text-white/30 text-center">
               Outros
             </span>
-            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-[#D48E93] text-center">
+            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-[#F87171] text-center">
               LCN
             </span>
           </motion.div>
@@ -76,8 +76,8 @@ export const LcnDifferential = () => {
                 <X className="w-5 h-5 text-red-400/50" />
               </span>
               <span className="flex justify-center">
-                <div className="w-7 h-7 rounded-full bg-[#621010]/15 flex items-center justify-center">
-                  <Check className="w-4 h-4 text-[#621010]" />
+                <div className="w-7 h-7 rounded-full bg-[#DC2626]/15 flex items-center justify-center">
+                  <Check className="w-4 h-4 text-[#DC2626]" />
                 </div>
               </span>
             </motion.div>

@@ -27,7 +27,7 @@ export const LcnFinalCta = () => {
               sem previsibilidade, trabalhando mais do que deveria para ganhar menos do que merece.
             </p>
             <p className="text-white/50 text-base sm:text-lg leading-relaxed font-medium">
-              Ou pode <span className="text-[#D48E93] font-semibold">entrar na comunidade</span> e
+              Ou pode <span className="text-[#F87171] font-semibold">entrar na comunidade</span> e
               construir um negócio real, com estrutura, processo e lucro de verdade.
             </p>
           </motion.div>
@@ -57,7 +57,7 @@ export const LcnFinalCta = () => {
               ].map(({ icon: Icon, label, desc }, i) => (
                 <div key={label} className="flex items-center justify-center gap-3">
                   <div className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-full bg-[#4A1219]/80">
-                    <Icon className="w-4 h-4 text-[#D48E93]" strokeWidth={2} />
+                    <Icon className="w-4 h-4 text-[#F87171]" strokeWidth={2} />
                   </div>
                   <p className="text-white/90 text-sm font-semibold">{label}</p>
                 </div>

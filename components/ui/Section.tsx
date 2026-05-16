@@ -140,11 +140,11 @@ export const Section = ({ children, className, id, dark = false }: SectionProps)
   >
     <div
       aria-hidden="true"
-      className="absolute inset-0 z-0 bg-[url('/BackgroundMobile.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:hidden"
+      className="absolute inset-0 z-0 bg-[url('/BackgroundMobile.png')] bg-cover bg-center opacity-[0.50] pointer-events-none sm:hidden"
     />
     <div
       aria-hidden="true"
-      className="absolute inset-0 z-0 hidden bg-[url('/Background.png')] bg-cover bg-center opacity-[0.04] pointer-events-none sm:block"
+      className="absolute inset-0 z-0 hidden bg-[url('/Background.png')] bg-cover bg-center opacity-[0.10] pointer-events-none sm:block"
     />
     {children}
   </section>

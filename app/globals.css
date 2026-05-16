@@ -142,7 +142,7 @@ body::-webkit-scrollbar,
   position: absolute;
   inset: 0;
   background: url("/Background2.png") center / cover no-repeat;
-  opacity: 0.015;
+  opacity: 0.025;
   filter: grayscale(100%);
   pointer-events: none;
   z-index: 0;

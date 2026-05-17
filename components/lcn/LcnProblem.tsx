@@ -68,7 +68,7 @@ export const LcnProblem = () => {
           </div>
 
           {/* Truths */}
-          <div className="space-y-4 flex flex-col">
+          <div className="space-y-4 flex flex-col mt-6">
             <p className="text-xs font-semibold tracking-[0.25em] uppercase text-white/60 mb-3 text-center md:text-left">
               A verdade
             </p>

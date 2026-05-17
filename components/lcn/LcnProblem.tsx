@@ -56,7 +56,7 @@ export const LcnProblem = () => {
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl bg-[#EF4444]/[0.04] border border-[#EF4444]/10 hover:border-[#EF4444]/30 transition-colors duration-500 flex-1"
+                className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-4 p-5 sm:p-6 rounded-2xl bg-[#EF4444]/[0.04] border border-[#EF4444]/10 hover:border-[#EF4444]/30 transition-colors duration-500 flex-1"
               >
                 <item.icon className="w-5 h-5 text-[#EF4444] mt-0.5 flex-shrink-0" />
                 <div className="text-white/50 text-sm sm:text-base leading-relaxed">
@@ -76,7 +76,7 @@ export const LcnProblem = () => {
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl lcn-glass hover:border-white/10 transition-colors duration-500 flex-1"
+                className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-4 p-5 pb-8 sm:p-6 rounded-2xl lcn-glass hover:border-white/10 transition-colors duration-500 flex-1"
               >
                 <item.icon className="w-5 h-5 text-white/70 mt-0.5 flex-shrink-0" />
                 <div className="text-white/80 text-sm sm:text-base leading-relaxed">

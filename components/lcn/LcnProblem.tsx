@@ -5,13 +5,13 @@ import { XCircle, CheckCircle } from "lucide-react";
 import { AnimatedSection, Container, staggerContainerVariants, staggerItemVariants, MotionContainer } from "@/components/ui/Section";
 
 const myths = [
-  { text: "Preciso de mais produto para vender mais", icon: XCircle },
-  { text: "Só preciso trabalhar mais e mais horas", icon: XCircle },
+  { title: "Preciso de mais produto pra vender mais", desc: "Quem acumula estoque sem estratégia só acumula dinheiro parado. O problema não é o produto.", icon: XCircle },
+  { title: "É só me esforçar mais e vai funcionar", desc: "Esforço sem direção só cansa. Você pode trabalhar 12 horas por dia e continuar no mesmo lugar.", icon: XCircle },
 ];
 
 const truths = [
-  { text: "Estrutura gera previsibilidade e escala", icon: CheckCircle },
-  { text: "Processo vence a sorte sempre", icon: CheckCircle },
+  { title: "O que faz crescer é estrutura + estratégia", desc: "Com o sistema certo, você vende mesmo nos meses que achou que ia ser difícil.", icon: CheckCircle },
+  { title: "Quem cresce tem processo, não sorte", desc: "Existe um jogo por trás de quem fatura todos os meses. E esse jogo pode ser aprendido.", icon: CheckCircle },
 ];
 
 export const LcnProblem = () => {
@@ -48,26 +48,27 @@ export const LcnProblem = () => {
 
         <MotionContainer variants={staggerContainerVariants} className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {/* Myths */}
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col">
             <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#EF4444] mb-3 text-center md:text-left">
-              O que te disseram
+              MITO
             </p>
             {myths.map((item, i) => (
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl bg-[#EF4444]/[0.04] border border-[#EF4444]/10 hover:border-[#EF4444]/30 transition-colors duration-500"
+                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl bg-[#EF4444]/[0.04] border border-[#EF4444]/10 hover:border-[#EF4444]/30 transition-colors duration-500 flex-1"
               >
                 <item.icon className="w-5 h-5 text-[#EF4444] mt-0.5 flex-shrink-0" />
-                <p className="text-white/50 text-sm sm:text-base leading-relaxed">
-                  {item.text}
-                </p>
+                <div className="text-white/50 text-sm sm:text-base leading-relaxed">
+                  <p className="font-semibold text-white/70 mb-1">{item.title}</p>
+                  <p>{item.desc}</p>
+                </div>
               </motion.div>
             ))}
           </div>
 
           {/* Truths */}
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col">
             <p className="text-xs font-semibold tracking-[0.25em] uppercase text-white/60 mb-3 text-center md:text-left">
               A verdade
             </p>
@@ -75,12 +76,13 @@ export const LcnProblem = () => {
               <motion.div
                 key={i}
                 variants={staggerItemVariants}
-                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl lcn-glass hover:border-white/10 transition-colors duration-500"
+                className="flex items-start gap-4 p-5 sm:p-6 rounded-2xl lcn-glass hover:border-white/10 transition-colors duration-500 flex-1"
               >
                 <item.icon className="w-5 h-5 text-white/70 mt-0.5 flex-shrink-0" />
-                <p className="text-white/80 text-sm sm:text-base leading-relaxed font-medium">
-                  {item.text}
-                </p>
+                <div className="text-white/80 text-sm sm:text-base leading-relaxed">
+                  <p className="font-semibold text-white mb-1">{item.title}</p>
+                  <p className="text-white/60">{item.desc}</p>
+                </div>
               </motion.div>
             ))}
           </div>

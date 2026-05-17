@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Check, Shield, Zap, ArrowRight, ChessKnight } from "lucide-react";
 import { AnimatedSection, Container, staggerItemVariants, MotionContainer, staggerContainerVariants } from "@/components/ui/Section";
 
-const CTA_LINK = "#";
+const CTA_LINK = "https://pay.kiwify.com.br/4Zpu6Xr";
 
 const included = [
   "Curso Milionário de Semijoias",
@@ -74,7 +74,7 @@ export const LcnOffer = () => {
 
               {/* Pricing */}
               <div className="text-center mb-8">
-                <p className="text-white/30 text-sm line-through mb-1">De R$ 1.497,00</p>
+                <p className="text-white/30 text-sm line-through mb-1">De R$3.500,00</p>
                 <div className="flex items-baseline justify-center gap-2 mb-2">
                   <span className="text-white/40 text-lg">12x de</span>
                   <span className="font-title text-5xl sm:text-6xl font-black lcn-accent-text">
@@ -83,7 +83,7 @@ export const LcnOffer = () => {
                   <span className="text-white/40 text-lg">,70</span>
                 </div>
                 <p className="text-white/35 text-sm">
-                  ou <span className="text-white/60 font-semibold">R$ 297,00</span> à vista
+                  ou <span className="text-white/60 font-semibold"> R$1.997,00</span> à vista
                 </p>
               </div>
 

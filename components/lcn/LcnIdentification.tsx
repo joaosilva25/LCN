@@ -76,7 +76,7 @@ export const LcnIdentification = () => {
         >
           <p className="max-w-lg mx-auto text-sm sm:text-base text-white/25 leading-relaxed">
             A <span className="text-[#F87171]/60 font-medium">Comunidade LCN</span> existe para
-            preencher exatamente esses buracos.
+            preencher <br></br>exatamente esses buracos.
           </p>
         </motion.div>
       </Container>

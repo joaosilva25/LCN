@@ -8,27 +8,27 @@ import { AnimatedSection, Container, staggerItemVariants, MotionContainer, stagg
 const faqs = [
   {
     q: "Sou iniciante, a comunidade é pra mim?",
-    a: "Sim. A comunidade foi criada para atender desde quem está começando até quem já vende. Se você é iniciante, vai encontrar todo o passo a passo para montar seu negócio do zero com estrutura.",
+    a: "Perfeito. O conteúdo começa do zero e te leva pelo caminho certo desde o início, sem pular a etapa que depois vai te travar.",
   },
   {
     q: "Já vendo semijoias, vale a pena entrar?",
-    a: "Com certeza. Se você já vende mas sente que está patinando, a comunidade vai te dar a estrutura que falta: fornecedores melhores, estratégias de escala, precificação inteligente e networking com vendedores que já faturam alto.",
+    a: "É exatamente pra isso que a comunidade existe. Quem já vende vai aprender a estruturar, escalar e ter mais margem. Não só faturar mais, mas ganhar mais."
   },
   {
     q: "Tenho loja física, funciona pra mim?",
-    a: "Sim. As estratégias da comunidade se aplicam tanto para quem vende online quanto para loja física. Você vai aprender a comprar melhor, aumentar margem e atrair mais clientes independente do canal.",
+    a: "A Comunidade cobre varejo, atacado e online. Você vai aprender a potencializar sua loja com produto certo, precificação inteligente e recorrência de cliente.",
   },
   {
     q: "Funciona para vendas online?",
-    a: "Totalmente. Boa parte das estratégias são direcionadas para quem vende online — Instagram, WhatsApp, marketplace e loja virtual. Você vai dominar cada canal.",
+    a: "Estratégias completas de venda online estão no conteúdo. E você vai aprender a usar isso junto com uma base de fornecedores que a maioria dos concorrentes não têm acesso.",
   },
   {
     q: "Tenho pouco tempo, consigo acompanhar?",
-    a: "Sim. O conteúdo é organizado para você consumir no seu ritmo. Os encontros ao vivo são gravados, e o suporte está sempre disponível. Você faz no seu tempo.",
+    a: "A plataforma é 100% no seu ritmo. Você acessa quando puder.Os encontros ao vivo ficam gravados. Não tem horário obrigatório.",
   },
   {
     q: "E se eu não tiver retorno?",
-    a: "Você tem 7 dias de garantia incondicional. Se por qualquer motivo sentir que não é pra você, devolvemos 100% do seu investimento. Risco zero.",
+    a: "R$97 é quanto você pagaria por três almoços. Se a comunidade te ajudar a fechar uma única venda a mais por mês, já se paga. O retorno vem com aplicação e você tem suporte para aplicar.",
   },
 ];
 

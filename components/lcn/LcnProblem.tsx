@@ -11,7 +11,7 @@ const myths = [
 
 const truths = [
   { text: "Estrutura gera previsibilidade e escala", icon: CheckCircle },
-  { text: "Processo vence sorte — sempre", icon: CheckCircle },
+  { text: "Processo vence a sorte sempre", icon: CheckCircle },
 ];
 
 export const LcnProblem = () => {
@@ -37,8 +37,12 @@ export const LcnProblem = () => {
             variants={staggerItemVariants}
             className="mt-5 max-w-2xl mx-auto text-white/40 text-base sm:text-lg leading-relaxed"
           >
-            Você já trabalha duro. O que falta é a estratégia certa, o fornecedor certo e o processo certo
-            para transformar esforço em resultado previsível.
+            Você provavelmente já tentou vender semijoias. Talvez tenha até vendido
+            bastante em algum período. Mas quando chega um mês difícil, tudo para.
+            <br /><br />
+            E aí você não sabe por quê. A maioria das pessoas que vende semijoias opera no improviso. Compra o que acha barato, repassa mais ou menos, e espera o WhatsApp reagir.
+            <br /><br />
+            Não é um negócio, é uma aposta.
           </motion.p>
         </div>
 

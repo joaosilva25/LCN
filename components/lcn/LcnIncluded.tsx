@@ -7,14 +7,14 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { AnimatedSection, Container, staggerContainerVariants, staggerItemVariants, MotionContainer } from "@/components/ui/Section";
 
 const items = [
-  { image: "/Curso Milionário de Semijoias.png", title: "Curso Milionário de Semijoias", desc: "Método completo passo a passo para faturar com semijoias" },
-  { image: "/Todos os cursos.png", title: "Todos os cursos + livro", desc: "Acesse todo o acervo de conhecimento e material exclusivo" },
-  { image: "/Lista de fornecedores confiáveis.png", title: "Lista de fornecedores confiáveis", desc: "Fornecedores verificados direto da China sem intermediários" },
-  { image: "/Comunidade ativa de membros.png", title: "Comunidade ativa", desc: "Networking com vendedores reais e troca de experiências" },
-  { image: "/Encontros ao vivo mensais.png", title: "Encontros ao vivo mensais", desc: "Encontros exclusivos com estratégias e análises de mercado" },
-  { image: "/Suporte e direcionamento.png", title: "Suporte e direcionamento", desc: "Acompanhamento direto para tirar dúvidas e direcionar" },
-  { image: "/Atualizações constantes.png ", title: "Atualizações constantes", desc: "Conteúdo sempre atualizado com tendências do mercado" },
-  { image: "/Estratégias de venda e estrutura de negócio.png", title: "Estratégias de venda e negócio", desc: "Táticas avançadas de precificação, escala e conversão" },
+  { image: "/Curso Milionário de Semijoias.png", title: "Curso Milionário de Semijoias", desc: "Do zero à estrutura completa. Aprende a comprar, precificar, vender e escalar com método testado." },
+  { image: "/Todos os cursos.png", title: "Todos os cursos + livro", desc: "Acesso completo à biblioteca de conteúdos. Tudo atualizado, tudo focado em resultado real." },
+  { image: "/Lista de fornecedores confiáveis.png", title: "Lista de fornecedores confiáveis", desc: "Não é uma lista aleatória. São fornecedores selecionados pelo por mim, que moro na China e conhece pessoalmente cada contato." },
+  { image: "/Comunidade ativa de membros.png", title: "Comunidade ativa", desc: "Troca de experiência real com quem está no mesmo caminho. Sem papo de coach, só prática." },
+  { image: "/Encontros ao vivo mensais.png", title: "Encontros ao vivo mensais", desc: "Todo mês tem encontro. É onde você tira dúvidas, recebe atualização de mercado e interage com o Léo." },
+  { image: "/Suporte e direcionamento.png", title: "Suporte e direcionamento", desc: "Você não está sozinho. Tem equipe olhando, respondendo e te direcionando quando travar." },
+  { image: "/Atualizações constantes.png ", title: "Atualizações constantes", desc: "O mercado mudou. O conteúdo da Comunidade também. Você sempre tem acesso ao que é atual." },
+  { image: "/Estratégias de venda e estrutura de negócio.png", title: "Estratégias de venda e negócio", desc: "Varejo, atacado ou online você vai saber exatamente como montar cada modelo com lucratividade." },
 ];
 
 export const LcnIncluded = () => {
@@ -48,7 +48,7 @@ export const LcnIncluded = () => {
             variants={staggerItemVariants}
             className="mt-4 max-w-2xl mx-auto text-white/40 text-base sm:text-lg"
           >
-            Um ecossistema completo para você dominar o mercado de semijoias.
+            Não é uma coisa só. É tudo que você precisa no mesmo lugar.
           </motion.p>
         </div>
 

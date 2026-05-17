@@ -9,31 +9,31 @@ const benefits = [
   {
     num: "01",
     title: "Vendas previsíveis",
-    desc: "Pare de depender da sorte. Tenha processos claros que geram receita todo mês.",
+    desc: "Chega de depender de \"quando aparece cliente\". Com o processo certo, você gera demanda não fica esperando por ela. Seu faturamento para de ser montanha-russa e começa a ter lógica.",
     icon: TrendingUp,
   },
   {
     num: "02",
     title: "Clientes recorrentes",
-    desc: "Construa uma base de clientes fiéis que voltam a comprar automaticamente.",
+    desc: "O segredo de quem fatura bem não é conquistar cliente novo toda semana. É criar clientes que compram de novo, de novo e de novo. A Comunidade te ensina exatamente como fazer isso.",
     icon: Users,
   },
   {
     num: "03",
     title: "Compra certa e margem real",
-    desc: "Saiba exatamente o que comprar, quando comprar e de quem comprar — com margem de verdade.",
+    desc: "Margem não vem do preço de venda. Vem do preço de compra. Com acesso aos fornecedores certos da China e a estratégia de importação da Comunidade, o seu lucro começa antes de você vender qualquer coisa.",
     icon: ShoppingBag,
   },
   {
     num: "04",
     title: "Escala sem trabalhar mais",
-    desc: "Sistemas e processos que permitem crescer sem se destruir fisicamente.",
+    desc: "Escalar não é trabalhar mais. É fazer o mesmo processo funcionar em mais canais, com mais produto, com mais cliente sem travar. Isso é o que a estrutura da Comunidade entrega.",
     icon: Rocket,
   },
   {
     num: "05",
     title: "Decisões baseadas em lógica",
-    desc: "Chega de intuição. Tome decisões com dados, estratégias e inteligência de mercado.",
+    desc: "Toda decisão que você toma no seu negócio hoje é baseada em intuição ou em dado? Com a Comunidade, você aprende a tomar decisão com lógica e isso muda completamente o resultado.",
     icon: Brain,
   },
 ];
@@ -115,7 +115,7 @@ export const LcnTransformation = () => {
               <div className="w-14 h-14 rounded-2xl lcn-glass-red flex items-center justify-center mx-auto mb-6">
                 <BenefitIcon index={active} />
               </div>
-              <h3 className="font-title text-xl sm:text-2xl font-semibold text-white mb-3">
+              <h3 className="font-title text-xl sm:text-2xl font-semibold text-white mb-4">
                 {benefits[active].title}
               </h3>
               <p className="text-white/35 text-sm sm:text-base leading-relaxed max-w-md mx-auto">

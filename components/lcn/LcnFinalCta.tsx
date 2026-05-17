@@ -22,13 +22,8 @@ export const LcnFinalCta = () => {
           </motion.h2>
 
           <motion.div variants={staggerItemVariants} className="space-y-4 mb-10">
-            <p className="text-white/50 text-base sm:text-lg leading-relaxed">
-              Você pode continuar no improviso, trocando de fornecedor,
-              sem previsibilidade, trabalhando mais do que deveria para ganhar menos do que merece.
-            </p>
             <p className="text-white/50 text-base sm:text-lg leading-relaxed font-medium">
-              Ou pode <span className="text-[#F87171] font-semibold">entrar na comunidade</span> e
-              construir um negócio real, com estrutura, processo e lucro de verdade.
+              Você pode continuar vendendo no improviso, esperando indicação, comprando sem saber se vai dar lucro de verdade. Ou pode entrar na <span className="text-[#F87171] font-semibold">COMUNIDADE LCN</span> e começar a operar com estrutura, estratégia e suporte de quem está na China todos os dias.
             </p>
           </motion.div>
 

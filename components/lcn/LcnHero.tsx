@@ -52,8 +52,7 @@ export const LcnHero = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="max-w-2xl text-base sm:text-lg text-white/55 leading-relaxed mb-10"
         >
-          Tenha acesso ao ecossistema completo para comprar direto da China, vender com previsibilidade e escalar no mercado de semijoias com estratégias que já geraram mais de
-          <span className="text-[#F87171] font-semibold"> R$20 milhões</span>
+          Tenha acesso ao ecossistema completo onde você aprende a comprar direto da China com inteligência, criar uma estrutura de vendas previsível e escalar com estratégias aplicadas por quem já gerou mais de <span className="text-[#F87171] font-semibold">R$20 milhões</span> no mercado de semijoias.
         </motion.p>
 
         {/* CTA + micro proofs */}

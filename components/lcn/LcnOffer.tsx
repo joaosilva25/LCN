@@ -78,10 +78,10 @@ export const LcnOffer = () => {
                 <div className="flex items-baseline justify-center gap-2 mb-2">
                   <span className="text-white/40 text-lg">12x de</span>
                   <span className="font-title text-5xl sm:text-6xl font-black lcn-accent-text">
-                    R$29
+                    R$206
                   </span>
-                  <span className="text-white/40 text-lg">,70</span>
-                </div>
+                  <span className="text-white/40 text-lg">,54</span>
+                </div> 
                 <p className="text-white/35 text-sm">
                   ou <span className="text-white/60 font-semibold"> R$1.997,00</span> à vista
                 </p>

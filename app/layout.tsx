@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       "Aumente sua margem de lucro em até 75%. Compre suas semijoias para revenda diretamente da fábrica.",
     images: [
       {
-        url: "/hero.jpg",
+        url: "/HeroDesk.png",
         width: 1920,
         height: 1080,
         alt: "Xingyu — semijoias direto da fábrica",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: "Xingyu | Maior Especialista de Semijoias do Brasil",
     description:
       "Aumente sua margem de lucro em até 75%. Compre suas semijoias para revenda diretamente da fábrica.",
-    images: ["/hero.jpg"],
+    images: ["/HeroDesk.png"],
   },
   robots: {
     index: true,

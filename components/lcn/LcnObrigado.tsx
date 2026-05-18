@@ -52,7 +52,7 @@ export const LcnObrigado = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="font-title text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight mb-5"
           >
-            BEM-VINDO À
+            BEM-VINDO(A) 
             <br />
             <span className="lcn-accent-text">COMUNIDADE LCN</span>
           </motion.h1>
@@ -65,9 +65,9 @@ export const LcnObrigado = () => {
             className="mb-16 space-y-2"
           >
             <p className="text-lg sm:text-xl text-white/50 leading-relaxed">
-              Parabéns. <span className="text-white/70 font-medium">Você tomou a decisão certa.</span>
+              Parabéns. <span className=" font-medium">Você tomou a decisão certa.</span>
             </p>
-            <p className="text-lg sm:text-xl text-white/80 leading-relaxed mt-12">
+            <p className="text-lg sm:text-xl text-white/90 leading-relaxed mt-12">
               Verifique seu e-mail
             </p>
             <p className="text-base sm:text-lg text-white/40 leading-relaxed max-w-lg mx-auto">
